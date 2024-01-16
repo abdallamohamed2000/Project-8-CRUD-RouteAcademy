@@ -1,0 +1,97 @@
+@media screen and (max-width:1200px) {
+    .card {
+        max-width: 400px;
+    }
+    .rules p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        max-width: 400px;
+    }
+    .rules p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .mySearch {
+        width: 75% !important;
+    }
+    .table-header-bg th {
+        font-size: 12px;
+    }
+    .table td,
+    .table a,
+    .table button {
+        font-size: 14px;
+    }
+    .internalTitle {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px) {
+    .table-header-bg th {
+        font-size: 10px;
+    }
+    .table td,
+    .table a,
+    .table button {
+        font-size: 10px;
+    }
+    .card {
+        max-width: 350px;
+    }
+    .rules p {
+        font-size: 12px;
+    }
+    .validHeader {
+        font-size: 16px;
+    }
+    .internalTitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .table-header-bg th {
+        font-size: 8px;
+    }
+    .table td,
+    .table a,
+    .table button {
+        font-size: 7px;
+    }
+    .card {
+        max-width: 300px;
+    }
+    .rules p {
+        font-size: 9px;
+    }
+    .validHeader {
+        font-size: 16px;
+    }
+    .internalTitle {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h1::before {
+        width: 65%;
+        height: 10%;
+        left: 17%;
+        bottom: 11px;
+    }
+    h1:hover::before {
+        height: 27%;
+    }
+    .cardTitle {
+        padding-bottom: 0 !important;
+    }
+}

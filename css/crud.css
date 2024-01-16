@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.crud-home {
+    background-image: url('../img/photo.jpeg');
+    z-index: -999;
+    background-position: 100% 100%;
+    background-size: cover cover;
+}
+
+h1 {
+    color: #f4efea;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    z-index: 99;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 73.5%;
+    height: 12%;
+    left: 10;
+    bottom: 50px;
+    background-color: #b2a99f;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+h1:hover::before {
+    height: 24%;
+}
+
+.crudInputs {
+    padding-top: 24px;
+}
+
+.internalTitle {
+    background-image: linear-gradient(to right, #ffffff, #87867d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Righteous', sans-serif;
+}
+
+label {
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #f8f9fa;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    border-color: #ada496;
+    box-shadow: 0 0 0 0.25rem #fcfcfc55;
+}
+
+.submit,
+.update {
+    border: 2px solid #e3d9d6;
+    background-color: transparent;
+    color: #e3d9d6;
+    font-weight: 800;
+}
+
+.submit:hover,
+.update:hover {
+    background-color: #655d5b;
+    color: #fff;
+}
+
+.table-header-bg th {
+    background-color: #ebe6e6;
+}
+
+.del-data {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    border: 2px solid #e3d9d6;
+}
+
+.upd-data {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    border: 2px solid #e3d9d6;
+}
+
+.del-data:hover,
+.upd-data:hover {
+    background-color: #5c5452;
+    color: #fff;
+}
+
+.btn-visit {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    border: 2px solid #e3d9d6;
+}
+
+.btn-visit:hover {
+    background-color: #5d4139;
+    color: #fff;
+}
+
+.circles i {
+    font-size: 20px;
+}
+
+.circles i:nth-child(1) {
+    color: #f15f5d;
+}
+
+.circles i:nth-child(2) {
+    color: #febe2e;
+}
+
+.circles i:nth-child(3) {
+    color: #4db748;
+}
+
+.validHeader {
+    color: #352E28;
+    font-size: 21px;
+    line-height: 27.3px;
+    font-family: 'Bree Serif', serif;
+}
+
+.card {
+    max-width: 500px;
+}
+
+.rules p {
+    color: #212529;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.rules i {
+    color: #BB4120;
+}
+
+.outer-card {
+    background-color: #0007;
+    z-index: 9999;
+}
